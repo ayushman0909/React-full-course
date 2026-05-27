@@ -15,7 +15,7 @@ const Decrease=()=>{
 }
 return(
   <>
-   <h1>counter is {counter} </h1>
+   <h1>counter is m {counter} </h1>
    <button onClick={Increase}>increase</button><button onClick={Decrease}>Decrease</button>
   </>
 )
