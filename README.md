@@ -31,3 +31,16 @@ eg, facebook when you get 5 new messages on top message icon you will see 5 coun
    ->no SEO,Browser rendering js slow becuase first it get converted into html css js by browser,no routing 
 ->Solution
   ->Next.js,Gatsby,Remix
+
+
+
+
+  ## normal function & useCallback 
+
+Normal Function:
+
+Har render par naya function banta hai.
+
+useCallback Function:
+
+React function ka reference yaad (cache) rakhta hai aur dependency change hone tak wahi function reuse karta hai.
